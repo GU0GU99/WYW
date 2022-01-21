@@ -1,0 +1,21 @@
+.logo-container{
+    left: 50px;
+    position: absolute;
+    top: 20px;
+     z-index: 3;
+}
+.logo-container .logo{
+    width: 60px;
+    float: left;
+}
+.logo-container .brand{
+    color: #FFFFFF;
+    line-height: 20px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 60px
+ font-size: 1.25rem;
+
+}
+}

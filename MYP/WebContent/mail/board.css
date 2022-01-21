@@ -1,0 +1,195 @@
+body {
+background-image: url( "purpleSky.jpg" );
+   font-family: 'Roboto';
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #748194;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #748194;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #748194;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #748194;
+}
+.container{
+   display:none;
+   position:absolute;
+	width: auto;
+	height:auto;
+	top: calc(50% - 240px);
+	left: calc(25% - 100px);
+   border-radius:15px 15px 15px 15px;
+}
+.c1{
+   box-shadow:0 0 10px grey;
+   background-color:white;
+   width:1000px;
+   height:1000px;
+   display:inline-block;
+   border-radius:15px 15px 15px 15px;
+}
+
+.c11{
+   background-image:url('https://i.pinimg.com/736x/b8/09/22/b80922f6ea2daaf36a6627378662803b--deck-of-cards-phone-wallpapers.jpg');
+   background-size:300px 400px;
+   background-repeat: no-repeat;
+   background-color:white;
+   width:300px;
+   height:400px;
+   display:inline-block;
+   position:absolute;
+   z-index:4;
+   border-radius:15px 15px 200px 200px;
+}
+#left, #right {
+   color:white;
+   display: inline-block;
+   width:146px;
+   height: 500px;
+   background-color:white;
+   cursor:pointer;
+}
+#left{
+   border-radius:15px 0px 0px 15px;
+}
+#right{
+   border-radius:15px 15px 15px 0px;
+}
+.left_hover{
+   color:#aba2ca;
+   box-shadow: 5px 0 18px -10px #333;
+   z-index:1;
+   position:absolute;
+}
+.right_hover{
+   box-shadow: -5px 0 15px -10px #333;
+   z-index:1;
+   position:absolute;
+}
+.s1class{
+   color:#748194;
+   position:absolute;
+   bottom:0;
+   left:63%;
+   margin-left: -50%;
+}
+.s1class span,  .s2class span{
+   display:block;
+}
+.su{
+   font-size:20px;
+}
+.s2class{
+   color:#748194;
+   position:absolute;
+   bottom:0;
+   right:63%;
+   margin-right: -50%;
+}
+.mainhead{
+   color:white;
+   font-size:24px;
+   text-align:center;
+   margin-top:50px;
+}
+.mainp{
+   color:white;
+   font-size:13px;
+   text-align:center;
+   margin-top:10px;
+}
+.c2{
+   background-color:white;
+   opacity:0.9;
+   width:1000px;
+   height:1000px;
+   border-radius:15px;
+   position:absolute;
+   display:inline-block;
+}
+.c3{
+   background-color:white;
+   opacity:0.9;
+   width:500px;
+   height:500px;
+   border-radius:15px;
+   position:absolute;
+   left:370px;
+   display:inline-block;
+}
+.username{
+   font-weight: bold;
+   width: 200px;
+   margin: 0 35px 20px ;
+   height: 28px;
+   padding: 6px 15px;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   background: #F6F7F9;
+   color: #748194;
+   font-size: 14px;
+}
+.btn{
+   font-weight: bold;
+   width: 230px;
+   margin: 100px 50px 20px ;
+   height: 45px;
+   padding: 6px 15px;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   background: #aba2ca;
+   color: white;
+   font-size: 14px;
+   position:right;
+}
+.signup1{
+   color:#748194;
+   font-size:30px;
+   text-align:center;
+}
+a{
+   text-decoration: none;
+}
+.signup2{
+   color:#748194;
+   font-size:20px;
+   text-align:center;
+}
+.signup{
+   display:initial;
+}
+.signin{
+   display:initial;
+}
+#mainNav {
+  min-height: 3.5rem;
+  background-color: #fff;
+}
+#mainNav .navbar-toggler {
+  font-size: 80%;
+  padding: 0.75rem;
+  color: #64a19d;
+  border: 1px solid #64a19d;
+}
+#mainNav .navbar-toggler:focus {
+  outline: none;
+}
+#mainNav .navbar-brand {
+  color: #000;
+  font-weight: 700;
+  padding: 0.9rem 0;
+}
+#mainNav .navbar-nav .nav-item:hover {
+  color: fade(#fff, 80%);
+  outline: none;
+  background-color: transparent;
+}
+#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+  outline: none;
+  background-color: transparent;
+}

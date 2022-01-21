@@ -1,0 +1,317 @@
+body {
+background-image: url( "purpleSky.jpg" );
+   font-family: 'Roboto';
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #606a7b;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #748194;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #748194;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #748194;
+}
+.container{
+   display:none;
+   position:absolute;
+	width: auto;
+	height:auto;
+	top: calc(50% - 240px);
+	left: calc(35% - 160px);
+   border-radius:15px 15px 15px 15px;
+}
+.c1{
+   box-shadow:0 0 10px grey;
+   background-color:white;
+   width:300px;
+   height:500px;
+   display:inline-block;
+   border-radius:15px 15px 15px 15px;
+}
+
+.c11{
+   background-image:url('https://i.pinimg.com/736x/b8/09/22/b80922f6ea2daaf36a6627378662803b--deck-of-cards-phone-wallpapers.jpg');
+   background-size:300px 400px;
+   background-repeat: no-repeat;
+   background-color:white;
+   width:300px;
+   height:400px;
+   display:inline-block;
+   position:absolute;
+   z-index:4;
+   border-radius:15px 15px 200px 200px;
+}
+#left, #right {
+   color:white;
+   display: inline-block;
+   width:146px;
+   height: 500px;
+   background-color:white;
+   cursor:pointer;
+}
+#left{
+   border-radius:15px 0px 0px 15px;
+}
+#right{
+   border-radius:15px 15px 15px 0px;
+}
+.left_hover{
+   color:#aba2ca;
+   box-shadow: 5px 0 18px -10px #333;
+   z-index:1;
+   position:absolute;
+}
+.right_hover{
+   box-shadow: -5px 0 15px -10px #333;
+   z-index:1;
+   position:absolute;
+}
+.s1class{
+   color:#748194;
+   position:absolute;
+   bottom:35px;
+   left:40%;
+   margin-left: -30%;
+}
+.s1class span,  .s2class span{
+   display:block;
+}
+.su{
+   font-size:20px;
+}
+.s2class{
+   color:#748194;
+   position:absolute;
+   bottom:35px;
+   right:56%;
+   margin-right: -50%;
+}
+.mainhead{
+   color:white;
+   font-size:24px;
+   text-align:center;
+   margin-top:50px;
+}
+.mainp{
+   color:white;
+   font-size:13px;
+   text-align:center;
+   margin-top:10px;
+}
+.c2{
+   background-color:white;
+   opacity:0.9;
+   width:400px;
+   height:500px;
+   border-radius:15px;
+   position:absolute;
+   left:370px;
+   display:inline-block;
+}
+.c3{
+   background-color:white;
+   opacity:0.8;
+   width:700px;
+   height:700px;
+   border-radius:15px;
+   position:absolute;
+   
+   
+   display:inline-block;
+}
+.username{
+   font-weight: bold;
+   width: 200px;
+   margin: 10px 5px 10px 40px ;
+   height: 28px;
+   padding: 6px 15px 6px 15px;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   background: #ebedf1;
+   color: #748194;
+   font-size: 14px;
+}
+.mname{
+   font-weight: bold;
+   width: 100px;
+   margin: 10px 2px 20px 2px;
+   height: 33px;
+   padding: 10px 10px 10px 10px;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   background: #ebedf1;
+   color: #748194;
+   font-size: 14px;
+}
+.dmain{
+   font-weight: bold;
+   width: 150px;
+   margin: 10px 2px 20px 2px;
+   height: 36px;
+   padding: 10px 10px 10px 10px;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   background: #ebedf1;
+   color: #748194;
+   font-size: 14px;
+}
+.address{
+   font-weight: bold;
+   width: 250px;
+   margin: 10px 3px 2px 40px;
+   height: 18px;
+   padding: 10px 10px 10px 10px;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   background: #ebedf1;
+   color: #748194;
+   font-size: 14px;
+}
+.domainame{
+   font-weight: bold;
+   width: 150px;
+   margin: 0 2px 20px 2px;
+   height: 28px;
+   padding: 6px 10px;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   background: #ebedf1;
+   color: #748194;
+   font-size: 14px;
+}
+.myname{
+   font-weight: bold;
+   width: 100px;
+   margin: 0 0 20px ;
+   height: 22px;
+   padding: 6px 10px;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   background: #ebedf1;
+   color: #748194;
+   font-size: 14px;
+}
+.dge{
+   font-weight: bold;
+   width: 100px;
+   margin: 10px 3px 2px 40px;
+   height: 33px;
+   padding: 6px 10px;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   background: #ebedf1;
+   color: #748194;
+   font-size: 14px;
+}
+
+.box-radio-input input[type="radio"]{
+  display:none;
+}
+
+.box-radio-input input[type="radio"] + span{
+  display:inline-block;
+  background:none;
+  border:1px solid #c0c0c0; 
+  padding:0px 10px;
+  text-align:center;
+  height:35px;
+  line-height:33px;
+  font-weight:500;
+  cursor:pointer;
+   margin: 10px 0px 2px 40px;}
+
+.box-radio-input input[type="radio"]:checked + span{
+  border:1px solid #aba2ca;
+  background:#aba2ca;
+  color:#fff;
+}
+h5{
+	font-size: 1rem;
+	 margin: 5px 0px 0px 40px ;
+	 
+}
+ 
+.btn{
+   font-weight: bold;
+   width: 230px;
+   margin: 0px 35px 20px 320px;
+   height: 45px;
+   padding: 6px 15px;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   background: #aba2ca;
+   color: white;
+   font-size: 14px;
+   right:20%;
+   cursor:pointer;
+}
+.idbtn{
+   font-weight: bold;
+   width: 50px;
+  
+   height: 36.5px;
+   
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   background: #aba2ca;
+   color: white;
+   font-size: 14px;
+}
+.signup1{
+   color:#748194;
+   font-size:30px;
+   text-align:center;
+}
+a{
+   text-decoration: none;
+}
+.signup2{
+   color:#748194;
+   font-size:20px;
+   text-align:center;
+}
+.signup{
+   display:initial;
+}
+.signin{
+   display:initial;
+}
+#mainNav {
+  min-height: 3.5rem;
+  background-color: #fff;
+}
+#mainNav .navbar-toggler {
+  font-size: 80%;
+  padding: 0.75rem;
+  color: #64a19d;
+  border: 1px solid #64a19d;
+}
+#mainNav .navbar-toggler:focus {
+  outline: none;
+}
+#mainNav .navbar-brand {
+  color: #000;
+  font-weight: 700;
+  padding: 0.9rem 0;
+}
+#mainNav .navbar-nav .nav-item:hover {
+  color: fade(#fff, 80%);
+  outline: none;
+  background-color: transparent;
+}
+#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+  outline: none;
+  background-color: transparent;
+}

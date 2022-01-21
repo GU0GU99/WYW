@@ -1,0 +1,98 @@
+@CHARSET "UTF-8";
+
+:root {
+	  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+
+	}
+.seconta{
+		font-size:2rem;
+	z-index:2;
+   display:none;
+   position:absolute;
+	width: auto;
+	height:auto;
+	top: calc(50% - 240px);
+	left: calc(40% - 160px);
+   border-radius:15px 15px 15px 15px;
+   padding: 10px;
+font-family: 'Montserrat', sans-serif;
+}
+
+.c1{
+	font-size:1rem;
+	position:absolute;
+   box-shadow:0 0 2px grey;
+   background-color:#cfc1db ;
+   width:27%;
+   height:30%;
+   display:inline-block;
+   border-radius:15px 15px 15px 15px;
+         top: 15%;
+    left: 65%;
+    padding: 10px;
+        background-color: rgba(255,255,255,0.6);
+font-family: 'Montserrat', sans-serif;
+
+}
+.xianzai{
+	font-family: 'Montserrat', sans-serif;
+		font-size:2rem;
+		color:#ffffff;
+		text-shadow: 0px 0px 5px #5d5d5d;
+}
+.citycc{
+font-family: 'Montserrat', sans-serif;
+
+		font-size:3rem;
+		color:#ffffff;
+		text-shadow: 0px 0px 5px #5d5d5d;
+}
+.ccTemp{
+			font-family: 'Montserrat', sans-serif;
+		font-size:1.5rem;
+		color:#ffffff;
+		text-shadow: 0px 0px 5px #5d5d5d;
+}
+.tuijian{
+				font-family: 'Montserrat', sans-serif;
+		font-size:1rem;
+		color:#ffffff;
+		text-shadow: 0px 0px 5px #5d5d5d;
+}
+.c22{
+		font-size:2rem;
+	position:absolute;
+   box-shadow:0 0 2px grey;
+   background-color:#ffffff;
+   width:27%;
+   height:50%;
+    top: 47.5%;
+    left: 65%;
+
+   display:inline-block;
+   border-radius:15px 15px 15px 15px;
+   padding: 7px;
+   background-color: rgba(255,255,255,0.6);
+font-family: 'Montserrat', sans-serif;
+}
+h2{
+		font-size:2rem;
+	font-family: 'Montserrat', sans-serif;
+}
+.c2{
+	font-size:2rem;
+	round-color:white;
+   opacity:0.5;
+   width:300px;
+   height:300px;
+   border-radius:15px;
+position: relative;
+   left:500px;
+   display:inline-block;
+font-family: 'Montserrat', sans-serif;
+}
+.signup{
+   display:initial;
+}
